@@ -55,7 +55,8 @@ class Settings(CiBuildSettingsManager, UpdateSettingsManager, SetupSettingsManag
                 "FatPkg",
                 "CryptoPkg",
                 "UnitTestFrameworkPkg",
-                "OvmfPkg"
+                "OvmfPkg",
+                "9pfsPkg"
                 )
 
     def GetArchitecturesSupported(self):
