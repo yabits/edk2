@@ -158,8 +158,6 @@ class Settings(CiBuildSettingsManager, UpdateSettingsManager, SetupSettingsManag
             "MdeModulePkg/Library/BrotliCustomDecompressLib/brotli", False))
         rs.append(RequiredSubmodule(
             "BaseTools/Source/C/BrotliCompress/brotli", False))
-        rs.append(RequiredSubmodule(
-            "9pfsPkg", False))
         return rs
 
     def GetName(self):
