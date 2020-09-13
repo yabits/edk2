@@ -17,6 +17,3 @@
 	path = BaseTools/Source/C/BrotliCompress/brotli
 	url = https://github.com/google/brotli
 	ignore = untracked
-[submodule "9pfsPkg"]
-	path = 9pfsPkg
-	url = https://github.com/yabits/9pfsPkg.git
